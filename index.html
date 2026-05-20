@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    }
+
+    @media(max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+
+      .hero h2 {
+        font-size: 35px;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Future Academy</h1>
+    <nav>
+      <a href="#about">Biz haqimizda</a>
+      <a href="#courses">Kurslar</a>
+      <a href="#contact">Aloqa</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Kelajagingizni Biz Bilan Quring!</h2>
+      <p>IT, Ingliz tili, Grafik dizayn va boshqa zamonaviy kurslar orqali bilim oling.</p>
+      <a href="#courses" class="btn">Kurslarni Ko‘rish</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">Biz Haqimizda</h2>
+    <p style="text-align:center; max-width:900px; margin:auto; font-size:18px;">
+      Future Academy — zamonaviy o‘quv markazi bo‘lib, yoshlarni yangi kasblarga o‘rgatish va ularni kelajak kasblariga tayyorlashni maqsad qilgan. Tajribali ustozlar va amaliy darslar bilan siz qisqa muddatda natijaga erishasiz.
+    </p>
+  </section>
+
+  <section id="courses" class="courses">
+    <h2 class="section-title">Bizning Kurslar</h2>
+
+    <div class="courses-container">
+      <div class="course-card">
+        <h3>Frontend Dasturlash</h3>
+        <p>HTML, CSS, JavaScript va React orqali web saytlar yaratishni o‘rganing.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Grafik Dizayn</h3>
+        <p>Photoshop va Illustrator yordamida professional dizayn tayyorlang.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Ingliz Tili</h3>
+        <p>Beginner dan IELTS darajasigacha zamonaviy metodika asosida ta’lim.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>SMM va Marketing</h3>
+        <p>Ijtimoiy tarmoqlarda biznes rivojlantirishni o‘rganing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Biz Bilan Bog‘laning</h2>
+
+    <form>
+      <input type="text" placeholder="Ismingiz" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="5" placeholder="Xabaringiz"></textarea>
+      <button type="submit">Yuborish</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Future Academy | Barcha huquqlar himoyalangan</p>
+  </footer>
+
+</body>
+</html>
